@@ -1,4 +1,4 @@
 package com.example.myapplication
 
-class EBaseDeDatos {
+class ECine {
 }
