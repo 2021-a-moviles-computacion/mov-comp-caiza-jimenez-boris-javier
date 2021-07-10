@@ -4,8 +4,8 @@ import java.util.*
 
 
 fun main() {
-    val jugador = "C:/Users/Boris/Desktop/Septimo Semestre/Aplicaciones Moviles/Primer Bimestre/mov-comp-caiza-jimenez-boris-javier/deber1/src/main/kotlin/jugador.txt"
-    val club = "C:/Users/Boris/Desktop/Septimo Semestre/Aplicaciones Moviles/Primer Bimestre/mov-comp-caiza-jimenez-boris-javier/deber1/src/main/kotlin/equipo.txt"
+    val jugador = "src/main/kotlin/jugador.txt"
+    val club = "src/main/kotlin/equipo.txt"
     val scanner = Scanner(System.`in`)
     val lista_jugadores = ReadPlayer(jugador)
     val lista_clubes = ReadClub(club)
