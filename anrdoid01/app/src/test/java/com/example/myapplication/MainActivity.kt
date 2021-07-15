@@ -15,6 +15,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+       /* EBaseDeDatos.TablaUsuario = ESqliteHelperUsuario(this)
+        if(EBaseDeDatos.TablaUsuario!=null){
+            EBaseDeDatos.TablaUsuario!!.consultarUsuarioPorId()
+            EBaseDeDatos.TablaUsuario!!.creatUsuarioFormulario()
+            EBaseDeDatos.TablaUsuario!!.eliminarUsuarioFomrulario()
+            EBaseDeDatos.TablaUsuario!!.actualizarUsuarioFormulario()
+        }*/
 
 
         val botonIrACicloVida = findViewById<Button>(R.id.btn_ciclo_vida)  //Lo heredamos de la clase.
@@ -25,14 +32,20 @@ class MainActivity : AppCompatActivity() {
 
 
         val botonIrIntent = findViewById<Button>(R.id.btn_ir_intent)
-        botonIrIntent.setOnClickListener{abrirActividadConParametros(CIntentExplicitoParametros::class.java)}
+      //  botonIrIntent.setOnClickListener{abrirActividadConParametros(CIntentExplicitoParametros::class.java)}
 
         val botonAbrirIntentImplicito = findViewById<Button>(R.id.btn_ir_intent_implicito)
         botonAbrirIntentImplicito.setOnClickListener{
             val intentConRespuesta = Intent(Intent.ACTION_PICK,
                 ContactsContract.CommonDataKinds.Phone.CONTENT_URI)
-            startActivityForResult(intentConRespuesta, CODIGO_RESPUESTA_INTENT_IMPLICITO)
+            //startActivityForResult(intentConRespuesta, CODIGO_RESPUESTA_INTENT_IMPLICITO)
         }
+
+        val botonIrUsuario = findViewById<Button>(R.id.btn_ir_usuario)
+        botonIrUsuario.setOnClickListener{abrirActividad(InterfaceUsuario::class.java)}
+
+        val botonAbrirRecylcerView = findViewById<Button>(R.id.btn_ir_recycler_view)
+        botonAbrirRecylcerView.setOnClickListener{abrirActividadConParametros(GReculcerView::class.java)}
 
     }
 
@@ -45,14 +58,14 @@ class MainActivity : AppCompatActivity() {
         startActivity(intentExplicito) //Lo heredamos de la clase.
     }
 
-    fun abrirActividadConParametros(clase: Class<*>){
-        val  intentExplicito = Intent(this, clase)
+   fun abrirActividadConParametros(clase: Class<*>){
+       val  intentExplicito = Intent(this, clase)
         intentExplicito.putExtra("nombre","Boris")
         intentExplicito.putExtra("apellido","Caiza")
         intentExplicito.putExtra("edad",21)
         intentExplicito.putExtra("entrenador",BEntrenador("Boris","Caiza"))
         startActivityForResult(intentExplicito, CODIGO_RESPUESTA_INTENT_EXPLICITO)
-        /*registerForActivityResult(ActivityResultContracts.StartActivityForResult()){
+     /*  registerForActivityResult(ActivityResultContracts.StartActivityForResult()){
             when(it.resultCode){
                 Activity.RESULT_OK-> {
                     //Ejecutar codigo OK
