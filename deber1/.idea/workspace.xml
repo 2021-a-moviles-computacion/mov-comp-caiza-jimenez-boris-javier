@@ -1,98 +1,208 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32a3ea0c-509e-4d5f-bd8f-361578bfa249" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../anrdoid01/app/src/main/java/com/example/myapplication/DLiga.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../anrdoid01/app/src/main/java/com/example/myapplication/ESqliteHelperUsuario.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../anrdoid01/app/src/main/java/com/example/myapplication/EUsuarioBDD.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.8/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.8/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/configuration-cache/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/kotlin/main/MainKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Club.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Jugador.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/equipo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/jugador.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/androidTest/java/com/example/deberbase/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/java/com/example/deberbase/BBaseDatos.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/java/com/example/deberbase/BListViewUsuario.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/java/com/example/deberbase/CrearUsuario.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/java/com/example/deberbase/ESqliteHelperUsuario.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/java/com/example/deberbase/EUsuarioBDD.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/java/com/example/deberbase/EditarActividad.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/java/com/example/deberbase/InterfaceUsuario.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/java/com/example/deberbase/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/layout/activity_blist_view_usuario.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/layout/activity_crear_usuario.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/layout/activity_editar_actividad.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/layout/activity_interface_usuario.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/menu/menuusuario.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/app/src/test/java/com/example/deberbase/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeberBase/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/app/src/androidTest/java/com/example/examen/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/app/src/main/java/com/example/examen/BBaseCine.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/app/src/main/java/com/example/examen/Cine.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/app/src/main/java/com/example/examen/CrearUsuario.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/app/src/main/java/com/example/examen/ECine.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/app/src/main/java/com/example/examen/EPELICULA.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/app/src/main/java/com/example/examen/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/app/src/main/java/com/example/examen/PeliculaCine.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/app/src/main/java/com/example/examen/SQLCine.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/app/src/main/java/com/example/examen/SQLPelicula.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/app/src/main/res/layout/activity_cine.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/app/src/main/res/layout/activity_cine.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/app/src/main/res/layout/activity_crear_usuario.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/app/src/main/res/layout/activity_pelicula_cine.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/app/src/main/res/menu/menucine.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/app/src/main/res/menu/menucine.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/app/src/test/java/com/example/examen/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/java/com/example/myapplication/BBaseCine.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/java/com/example/myapplication/Cine.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/java/com/example/myapplication/CrearCine.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/java/com/example/myapplication/ECine.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/java/com/example/myapplication/EPelicula.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/java/com/example/myapplication/EditarCine.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/java/com/example/myapplication/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/java/com/example/myapplication/Pelicula.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/java/com/example/myapplication/SQLCine.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/java/com/example/myapplication/SQLPelicula.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/layout/activity_cine.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/layout/activity_crear_cine.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/layout/activity_editar_cine.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/layout/activity_pelicula.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/menu/menucine.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/app/src/test/java/com/example/myapplication/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento2/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento3/app/src/main/java/com/example/myapplication/BaseDatos.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento3/app/src/main/java/com/example/myapplication/Cine.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento3/app/src/main/java/com/example/myapplication/CrearCine.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento3/app/src/main/java/com/example/myapplication/CrearPelicula.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento3/app/src/main/java/com/example/myapplication/ECine.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento3/app/src/main/java/com/example/myapplication/EPelicula.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento3/app/src/main/java/com/example/myapplication/EditarCine.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento3/app/src/main/java/com/example/myapplication/EditarPelicula.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento3/app/src/main/java/com/example/myapplication/Pelicula.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento3/app/src/main/java/com/example/myapplication/Tablas.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento3/app/src/main/res/layout/activity_cine.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento3/app/src/main/res/layout/activity_crear_cine.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento3/app/src/main/res/layout/activity_editar_cine.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento3/app/src/main/res/layout/activity_editar_pelicula.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento3/app/src/main/res/layout/activity_pelicula.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento3/app/src/main/res/layout/activity_prueba.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento3/app/src/main/res/menu/menucine.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenIntento3/app/src/main/res/menu/menupelicula.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anrdoid01/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../anrdoid01/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anrdoid01/app/src/main/java/com/example/myapplication/BEntrenador.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../anrdoid01/app/src/main/java/com/example/myapplication/BEntrenador.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anrdoid01/app/src/main/java/com/example/myapplication/BListView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../anrdoid01/app/src/main/java/com/example/myapplication/BListView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anrdoid01/app/src/main/java/com/example/myapplication/CIntentExplicitoParametros.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../anrdoid01/app/src/main/java/com/example/myapplication/CIntentExplicitoParametros.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anrdoid01/app/src/main/java/com/example/myapplication/EBaseDatos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../anrdoid01/app/src/main/java/com/example/myapplication/EBaseDatos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anrdoid01/app/src/main/java/com/example/myapplication/ESqliteHelperUsuario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../anrdoid01/app/src/main/java/com/example/myapplication/ESqliteHelperUsuario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anrdoid01/app/src/main/java/com/example/myapplication/EUsuarioBDD.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../anrdoid01/app/src/main/java/com/example/myapplication/EUsuarioBDD.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anrdoid01/app/src/main/java/com/example/myapplication/FRecyclerViewAdptadorNombreCedula.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../anrdoid01/app/src/main/java/com/example/myapplication/FRecyclerViewAdptadorNombreCedula.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anrdoid01/app/src/main/java/com/example/myapplication/GReculcerView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../anrdoid01/app/src/main/java/com/example/myapplication/GReculcerView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anrdoid01/app/src/main/java/com/example/myapplication/InterfaceUsuario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../anrdoid01/app/src/main/java/com/example/myapplication/InterfaceUsuario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anrdoid01/app/src/main/res/layout/activity_greculcer_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../anrdoid01/app/src/main/res/layout/activity_greculcer_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anrdoid01/app/src/main/res/layout/activity_interface_usuario.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../anrdoid01/app/src/main/res/layout/activity_interface_usuario.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anrdoid01/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../anrdoid01/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anrdoid01/app/src/main/res/layout/recyvler_view_vista.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../anrdoid01/app/src/main/res/layout/recyvler_view_vista.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anrdoid01/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../anrdoid01/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,20 +234,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Examen" />
   </component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="deber1.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Kotlin.MainKt" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -161,5 +273,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2864" y="119" key="FileChooserDialogImpl" timestamp="1626363933330">
+      <screen x="2400" y="0" width="1366" height="728" />
+    </state>
+    <state x="2864" y="119" key="FileChooserDialogImpl/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1626363933330" />
   </component>
 </project>

@@ -3,7 +3,7 @@ package com.example.myapplication
 import android.os.Parcel
 import android.os.Parcelable
 
-class BEntrenador(val nombre: String?, val descripcion: String?, val liga:DLiga?) :Parcelable {
+class BEntrenador(val nombre: String?, val descripcion: String?, val liga: DLiga? =null) :Parcelable {
 
 
     constructor(parcel: Parcel) : this(

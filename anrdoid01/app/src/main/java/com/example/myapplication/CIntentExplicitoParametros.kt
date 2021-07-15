@@ -11,7 +11,7 @@ class CIntentExplicitoParametros : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cintent_explicito_parametros)
 
-        val nombre = intent?.getStringExtra("nombre")
+       /* val nombre = intent?.getStringExtra("nombre")
         val apellido = intent?.getStringExtra("apellido")
         val edad = intent?.getIntExtra("edad",0)
         val entrenador = intent.getParcelableExtra<BEntrenador>("entrenador")
@@ -31,7 +31,7 @@ class CIntentExplicitoParametros : AppCompatActivity() {
             setResult(RESULT_OK, intentDevolverParametros)
             finish()
             //this.finish()
-        }
+        }*/
 
     }
 }
