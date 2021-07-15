@@ -21,7 +21,7 @@ class EPelicula(
     }
 
     override fun toString(): String {
-        return "$id_pelicula-$id_cine_a-$nombre-$director-$taquilla-$cartelera"
+        return "Id_Pelicula:$id_pelicula  Id_Cine:$id_cine_a  Nombre:$nombre  Director:$director  Taquilla:$taquilla  Cartelera:$cartelera"
     }
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {

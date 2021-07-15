@@ -34,7 +34,7 @@ class ECine(var id_cine:Int, var nombre: String?, var dirección: String?, var s
     }
 
     override fun toString(): String {
-        return "$id_cine-$nombre-$dirección-$salas-$estrellas-${SimpleDateFormat("dd/MM/yyyy").format(fecha_estrenos)}"
+        return "Id_Cine:$id_cine  Nombre:$nombre  Dirección:$dirección  Salas:$salas  Estrellas:$estrellas  Fecha:${SimpleDateFormat("dd/MM/yyyy").format(fecha_estrenos)}"
     }
 
     companion object CREATOR : Parcelable.Creator<ECine> {
