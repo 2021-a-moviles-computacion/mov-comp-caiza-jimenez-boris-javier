@@ -1,6 +1,0 @@
-2,Olmedo,Categoría B,Tungurahua,Riobamba,true,
-3,Barcelona,Categoría A,Guayas,Guayaquil,true,
-4,Emelec,Categoría A,Guayas,Guayaquil,true,
-5,Quito,Categoría C,Pichincha,Quito,true,
-1,Espoli,Categoría B,Cotopaxi,Latacunga,false,
-6,Liga de Quito,Categoría A,Pichincha,Cuenca,true,

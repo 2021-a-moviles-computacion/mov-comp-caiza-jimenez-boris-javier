@@ -1,5 +1,0 @@
-1,Liga de Quito, Categoría A, Pichincha, Quito
-2, Olmedo, Categoría B, Tungurahua, Riobamba
-3, Barcelona, Categoría A, Guayas, Guayaquil
-4, Emelec, Categoría A, Guayas, Guayaquil
-5, Deportivo Quito, Categoría C, Pichincha, Quito
