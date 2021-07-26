@@ -19,9 +19,9 @@ class CrearPelicula : AppCompatActivity() {
         val cartelera = findViewById<EditText>(R.id.txt_crear_cartelera)
 
 
-        // val id_2 = pel!!.id_cine_a
-        //  val id:Int = Cine.id_a
-        val id_2 = a!!.id_cine
+
+          val id:Int = Cine.id_a
+
 
 
         val botoneditar = findViewById<Button>(R.id.btn_Crear_pelicula_3)
@@ -38,7 +38,7 @@ class CrearPelicula : AppCompatActivity() {
                             direccion.text.toString(),
                             taquilla.text.toString().toDouble(),
                             cartelera.text.toString().toBoolean(),
-                            id_2
+                            id
                         )
                         if (cine == true) {
                             Toast.makeText(this, "cine actualizado con exito", Toast.LENGTH_SHORT)

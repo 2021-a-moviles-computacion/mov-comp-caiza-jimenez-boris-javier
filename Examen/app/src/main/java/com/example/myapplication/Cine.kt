@@ -16,7 +16,9 @@ import androidx.appcompat.app.AlertDialog
 class Cine : AppCompatActivity() {
     companion object{
         var id_a = 0
+        var nombre = "cine"
     }
+
     var posicionItem = 0
     var adapter: ArrayAdapter<ECine>? = null
     val CODIGO_RESPUESTA_INTENT_EXPLICITO = 401
@@ -62,7 +64,7 @@ class Cine : AppCompatActivity() {
         val id = info.position
         posicionItem = id
         id_a = adapter!!.getItem(posicionItem)!!.id_cine
-
+        nombre = adapter!!.getItem(posicionItem)!!.nombre.toString()
 
 
 
