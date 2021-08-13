@@ -1,13 +1,13 @@
-package com.example.myapplication
+package com.example.myapplication.Adaptador
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
-import android.widget.RatingBar
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.myapplication.Datos.Banner
+import com.example.myapplication.R
 
 class AdaptadorBanner(private var lista:ArrayList<Banner>, private var contexo:Context):
 RecyclerView.Adapter<AdaptadorBanner.ViewHolder>(){
@@ -17,7 +17,7 @@ RecyclerView.Adapter<AdaptadorBanner.ViewHolder>(){
         var imagen: ImageView
 
         init {
-            imagen = vista.findViewById(R.id.ebIvBanner)
+            imagen = vista.findViewById(R.id.banner_image)
 
         }
 

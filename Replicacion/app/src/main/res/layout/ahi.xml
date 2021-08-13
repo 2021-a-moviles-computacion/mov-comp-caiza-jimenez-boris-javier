@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="371dp"
+        android:layout_height="217dp"
+        android:layout_gravity="center"
+        android:background="#E6E6E6"
+        app:layout_constraintCircleRadius="10dp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="102dp">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="216dp"
+            android:text="250.000+ Ratings"
+            android:textColor="#5882FA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="129dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="216dp"
+            android:layout_marginBottom="28dp"
+            android:text="AUDIENCE SCORE"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/certificado222"
+            android:layout_width="78dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="48dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/avccalcertificado22"
+            app:srcCompat="@drawable/sobresaliente" />
+
+        <TextView
+            android:id="@+id/avctitulo2"
+            android:layout_width="244dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="4dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/acvclasificacion2"
+            android:layout_width="244dp"
+            android:layout_height="24dp"
+            android:layout_marginBottom="116dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/avccertificado22"
+            android:layout_width="78dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="48dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/sobresaliente" />
+
+        <TextView
+            android:id="@+id/avccalcertificado22"
+            android:layout_width="83dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="48dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="35dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/avccertificado22" />
+
+        <TextView
+            android:id="@+id/avccalcertificado222"
+            android:layout_width="69dp"
+            android:layout_height="53dp"
+            android:layout_marginBottom="48dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="35dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/certificado222" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="129dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginBottom="28dp"
+            android:text="TOMATOMETERS"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="76dp"
+            android:text="235 Reviews"
+            android:textColor="#5882FA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

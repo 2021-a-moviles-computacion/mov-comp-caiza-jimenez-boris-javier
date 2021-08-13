@@ -11,7 +11,7 @@
         android:layout_height="243dp"
 
         android:layout_marginStart="4dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="4dp"
         app:layout_constraintCircleRadius="150dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -52,5 +52,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/elpIvPelicula"
         app:srcCompat="@drawable/sobresaliente" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton8"
+        android:layout_width="78dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="72dp"
+
+
+        android:backgroundTint="#2F817C7C"
+
+        android:clickable="true"
+        app:backgroundTint="#00FFFFFF"
+
+        app:fabCustomSize="83dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:maxImageSize="75dp"
+        app:rippleColor="#00C33333"
+        app:srcCompat="@drawable/ic_baseline_play_circle_outline_24"
+        app:tint="@android:color/white" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

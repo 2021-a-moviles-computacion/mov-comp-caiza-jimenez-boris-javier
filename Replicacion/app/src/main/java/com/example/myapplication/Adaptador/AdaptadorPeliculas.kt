@@ -1,13 +1,17 @@
-package com.example.myapplication
+package com.example.myapplication.Adaptador
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
-import android.widget.RatingBar
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.myapplication.Actividades.VisorCalificacion
+import com.example.myapplication.Datos.Pelicula
+import com.example.myapplication.R
+import com.example.myapplication.Actividades.VisorImagenes
 
 //import info.jeovani.recyclerview.actividades.Detalles
 //import info.jeovani.recyclerview.actividades.VisorImagen
@@ -30,7 +34,10 @@ class AdaptadorPeliculas(private var lista: ArrayList<Pelicula>, private var con
                 titulo = vista.findViewById(R.id.elpTvTitulo)
                 certificado = vista.findViewById(R.id.elpTvcertificado)
                 imagen_certificado = vista.findViewById(R.id.elpImImagenCer)
+
+
             }
+
 
     }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -48,6 +55,24 @@ class AdaptadorPeliculas(private var lista: ArrayList<Pelicula>, private var con
         holder.titulo.text = pelicula.titulo
         holder.certificado.text = pelicula.certificado
         holder.imagen_certificado.setImageResource(pelicula.imagen_certificado)
+        //////Imagen
+        holder.imagen.setOnClickListener{
+            contexto.startActivity(Intent(contexto, VisorImagenes::class.java).putExtra("pel",pelicula) )
+        }
+        //////Titulo
+        holder.titulo.setOnClickListener{
+            contexto.startActivity(Intent(contexto, VisorCalificacion::class.java).putExtra("pel",pelicula) )
+        }
+        //ImagenCertificado
+        holder.imagen_certificado.setOnClickListener{
+            contexto.startActivity(Intent(contexto, VisorCalificacion::class.java).putExtra("pel",pelicula) )
+        }
+        //Certificado
+        holder.certificado.setOnClickListener{
+            contexto.startActivity(Intent(contexto, VisorCalificacion::class.java).putExtra("pel",pelicula) )
+        }
+
+        
     }
 
 
