@@ -12,6 +12,7 @@ import com.example.myapplication.Adaptador.*
 import com.example.myapplication.Datos.*
 import com.example.myapplication.R
 import kotlin.collections.ArrayList
+import kotlin.concurrent.timer
 
 class MainActivity : AppCompatActivity(){
 
@@ -47,7 +48,7 @@ class MainActivity : AppCompatActivity(){
 
         /////////////////////////////
 //Timer del SliderPage
-      /*  var timer = timer()
+        /*var timer = timer()
         timer.schedule(object : TimerTask() {
             override fun run() {
                 pager.post(Runnable {
