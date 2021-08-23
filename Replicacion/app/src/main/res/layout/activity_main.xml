@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Actividades.MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="405dp"
+        android:layout_height="665dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/slidier_pager"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="37dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="210dp"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="10dp"
+                        app:srcCompat="@drawable/seccion111" />
+
+                    <Button
+                        android:id="@+id/boton1"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="205dp"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="85dp"
+                        android:text="VIEW ALL"
+                        android:textColor="#2E64FE" />
+
+                </TableRow>
+
+
+            </TableLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/amRvPeliculas"
+
+                android:layout_width="375dp"
+
+                android:layout_height="319dp"
+                android:layout_gravity="center" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:paddingTop="25dp">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="238dp"
+                        android:layout_height="48dp"
+                        app:srcCompat="@drawable/seccion2" />
+
+                    <Button
+                        android:id="@+id/boton2"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="170dp"
+                        android:layout_height="50dp"
+                        android:paddingLeft="65dp"
+                        android:text="VIEW ALL"
+                        android:textColor="#2E64FE" />
+
+                </TableRow>
+
+
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="18dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="VUDU |"
+                    android:textColor="#2E64FE" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Netflix |"
+                    android:textColor="#2E64FE" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Amazon |"
+                    android:textColor="#2E64FE" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="HBO |"
+                    android:textColor="#2E64FE" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="More .."
+                    android:textColor="#2E64FE" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/prueba"
+                android:layout_width="370dp"
+                android:layout_height="282dp"
+                android:layout_gravity="center"
+                android:paddingTop="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="208dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="15dp"
+                    app:srcCompat="@drawable/seccion3" />
+
+                <Button
+                    android:id="@+id/boton3"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="182dp"
+                    android:layout_height="41dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:paddingLeft="100dp"
+                    android:text="VIEW ALL"
+                    android:textColor="#2E64FE" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/ultimo"
+                android:layout_width="369dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="176dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="12dp"
+                    app:srcCompat="@drawable/seccion4" />
+
+                <Button
+                    android:id="@+id/boton4"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="50dp"
+                    android:text="  WHAT'S ON TONIGHT"
+                    android:textColor="#2E64FE" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/cine"
+                android:layout_width="369dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:paddingTop="15dp" />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="192dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:paddingRight="40dp"
+
+                    app:srcCompat="@drawable/seccion5" />
+
+                <Button
+                    android:id="@+id/boton5"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="136dp"
+                    android:layout_height="37dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="80dp"
+                    android:text="VIEW ALL"
+                    android:textColor="#2E64FE" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="Availability may vary, check your" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:text="local showtimes"
+                    android:textColor="#2E64FE" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="for details." />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/amfinal"
+
+                android:layout_width="369dp"
+                android:layout_height="361dp"
+                android:layout_gravity="center"
+                android:paddingTop="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="57dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="15dp"
+                    app:srcCompat="@drawable/dccomics" />
+
+                <Button
+                    android:id="@+id/boton6"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="136dp"
+                    android:layout_height="37dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="140dp"
+                    android:text="VIEW ALL"
+                    android:textColor="#2E64FE" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/dc"
+                android:layout_width="372dp"
+                android:layout_height="357dp"
+                android:layout_gravity="center"
+                android:paddingTop="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="166dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="15dp"
+                    app:srcCompat="@drawable/trailer" />
+
+                <Button
+                    android:id="@+id/boton7"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="150dp"
+                    android:text="VIEW ALL"
+                    android:textColor="#2E64FE" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/amTrailers"
+                android:layout_width="366dp"
+                android:layout_height="418dp"
+                android:layout_gravity="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="130dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/tvguide" />
+
+                <Button
+                    android:id="@+id/boton8"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="149dp"
+                    android:layout_height="49dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="100dp"
+                    android:paddingBottom="10dp"
+                    android:text="VIEW ALL"
+                    android:textColor="#2E64FE" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/thelast"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:layout_marginTop="20dp"
+                android:background="#585858">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="130dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="144dp"
+                    android:text="Terms and Policies"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/boton9" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="150dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="284dp"
+                    android:text="Do Not Sell My Info"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/boton9" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="24dp"
+                    android:text="Privacy Policy"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/boton9" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="313dp"
+                    android:layout_height="43dp"
+                    android:paddingTop="10dp"
+                    android:text="Copyrigth Fandango. All rigths reserved."
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <Button
+                    android:id="@+id/boton9"
+                    android:layout_width="184dp"
+                    android:layout_height="44dp"
+                    android:layout_marginBottom="52dp"
+                    android:text="JOIN NEWSLETTER"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="130dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="144dp"
+                    android:text="Terms and Policies"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/boton9" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:paddingTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="170dp"
+                    android:layout_marginEnd="177dp"
+                    android:layout_marginTop="20dp"
+                    android:text="AdChoises"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="416dp"
+        android:layout_height="60dp"
+        android:background="#FF0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="152dp"
+            android:layout_height="49dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.454"
+            app:srcCompat="@drawable/rotten" />
+
+        <SearchView
+            android:layout_width="261dp"
+            android:layout_height="47dp"
+            android:layout_marginEnd="16dp"
+            android:queryHint="@android:string/search_go"
+            android:searchIcon="@drawable/buscador"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.538" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

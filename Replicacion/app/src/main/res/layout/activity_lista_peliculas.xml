@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Actividades.ListaPeliculas"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="416dp"
+        android:layout_height="60dp"
+        android:background="#FF0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="152dp"
+            android:layout_height="49dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.454"
+            app:srcCompat="@drawable/rotten" />
+
+        <SearchView
+            android:layout_width="261dp"
+            android:layout_height="47dp"
+            android:layout_marginEnd="16dp"
+            android:queryHint="@android:string/search_go"
+            android:searchIcon="@drawable/buscador"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.538" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+
+                <Button
+                    android:id="@+id/button3"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="372dp"
+                    android:layout_height="58dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:backgroundTint="@color/white"
+                    android:outlineSpotShadowColor="@color/teal_200"
+                    android:text="Coming Soon 🡣"
+                    android:textColor="#0080FF"
+                    app:cornerRadius="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.41"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:strokeColor="#A9BCF5" />
+
+                <Button
+                    android:id="@+id/button4"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="376dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="16dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Tap to sort/filter"
+                    android:textColor="#0080FF"
+
+                    app:cornerRadius="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.38"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:strokeColor="#A9BCF5" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:text="TOP DVD  STREAMING"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Showing 3 of 3"
+                android:paddingLeft="10dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:paddingTop="30dp"
+                android:id="@+id/alprecycler"
+                android:layout_width="match_parent"
+                android:layout_height="770dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="138dp"
+                android:layout_marginTop="20dp"
+                android:background="#585858">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="130dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="144dp"
+                    android:text="Terms and Policies"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/boton9" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="150dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="284dp"
+                    android:text="Do Not Sell My Info"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/boton9" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="24dp"
+                    android:text="Privacy Policy"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/boton9" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="313dp"
+                    android:layout_height="43dp"
+                    android:paddingTop="10dp"
+                    android:text="Copyrigth Fandango. All rigths reserved."
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <Button
+                    android:textColor="@color/black"
+                    android:backgroundTint="#F7FE2E"
+                    android:id="@+id/boton9"
+                    android:layout_width="184dp"
+                    android:layout_height="44dp"
+                    android:layout_marginBottom="52dp"
+                    android:text="JOIN NEWSLETTER"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="130dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="144dp"
+                    android:text="Terms and Policies"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/boton9" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="170dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="177dp"
+                    android:paddingTop="10dp"
+                    android:text="AdChoises"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+

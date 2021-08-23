@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="165dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/elpIvPelicula"
+        android:layout_width="152dp"
+        android:layout_height="243dp"
+
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintCircleRadius="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/extraordinario" />
+
+    <TextView
+        android:id="@+id/elpTvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="TextView"
+        android:paddingLeft="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/elpTvcertificado" />
+
+    <TextView
+        android:id="@+id/elpTvcertificado"
+        android:layout_width="45dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@string/appbar_scrolling_view_behavior"
+        android:text="TextView"
+        android:textSize="18dp"
+        android:textColor="#141907"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintStart_toEndOf="@+id/elpImImagenCer"
+        app:layout_constraintTop_toBottomOf="@+id/elpIvPelicula" />
+
+    <ImageView
+        android:id="@+id/elpImImagenCer"
+        android:layout_width="31dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/elpIvPelicula"
+        app:srcCompat="@drawable/sobresaliente" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton8"
+        android:layout_width="78dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="72dp"
+
+
+        android:backgroundTint="#2F817C7C"
+
+        android:clickable="true"
+        app:backgroundTint="#00FFFFFF"
+
+        app:fabCustomSize="83dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:maxImageSize="75dp"
+        app:rippleColor="#00C33333"
+        app:srcCompat="@drawable/ic_baseline_play_circle_outline_24"
+        app:tint="@android:color/white" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

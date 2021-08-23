@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/prueba2imagen"
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+
+    <ImageView
+        android:id="@+id/pruebaimagenprin"
+        android:layout_width="171dp"
+        android:layout_height="219dp"
+        android:layout_marginTop="16dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ex_maquina" />
+
+    <TextView
+        android:id="@+id/prueba2titutlo"
+        android:layout_width="182dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/pruebaimagenprin"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/prueba2certificadoimagen"
+        android:layout_width="44dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toEndOf="@+id/pruebaimagenprin"
+        app:layout_constraintTop_toBottomOf="@+id/prueba2titutlo"
+        app:srcCompat="@drawable/fresco" />
+
+    <TextView
+        android:id="@+id/prueba2certificado"
+        android:layout_width="95dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/prueba2certificadoimagen"
+        app:layout_constraintTop_toBottomOf="@+id/prueba2titutlo" />
+
+    <TextView
+        android:id="@+id/pruebaclasificacion"
+        android:layout_width="54dp"
+
+        android:layout_height="23dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/pruebaimagenprin"
+        app:layout_constraintTop_toBottomOf="@+id/prueba2certificadoimagen" />
+
+    <TextView
+        android:id="@+id/prueba2duracion"
+        android:layout_width="52dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/pruebaimagenprin"
+        app:layout_constraintTop_toBottomOf="@+id/pruebaclasificacion" />
+
+    <TextView
+        android:id="@+id/prueba2fecha"
+        android:layout_width="54dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/pruebaimagenprin"
+        app:layout_constraintTop_toBottomOf="@+id/prueba2duracion" />
+</androidx.constraintlayout.widget.ConstraintLayout>

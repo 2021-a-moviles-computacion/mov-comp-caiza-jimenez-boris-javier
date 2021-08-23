@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Actividades.VisorCalificacion">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="416dp"
+        android:layout_height="60dp"
+        android:background="#FF0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="152dp"
+            android:layout_height="49dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.454"
+            app:srcCompat="@drawable/rotten" />
+
+        <SearchView
+            android:layout_width="261dp"
+            android:layout_height="47dp"
+            android:layout_marginEnd="16dp"
+            android:queryHint="@android:string/search_go"
+            android:searchIcon="@drawable/buscador"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.538" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="186dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="380dp"
+                android:layout_height="256dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/imagentodo" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout"
+                android:layout_width="378dp"
+                android:layout_height="210dp"
+                android:layout_gravity="center"
+                android:background="#E6E6E6"
+                app:layout_constraintCircleRadius="10dp"
+                tools:layout_editor_absoluteX="24dp"
+                tools:layout_editor_absoluteY="102dp">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="220dp"
+                    android:text="250.000+ Ratings"
+                    android:textColor="#5882FA"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="129dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="192dp"
+                    android:layout_marginBottom="28dp"
+                    android:text="AUDIENCE SCORE"
+                    android:textColor="@color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <ImageView
+                    android:id="@+id/certificado222"
+                    android:layout_width="78dp"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginBottom="48dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/avccalcertificado22"
+                    app:srcCompat="@drawable/sobresaliente" />
+
+                <TextView
+                    android:id="@+id/avctitulo2"
+                    android:layout_width="244dp"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="4dp"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="25dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.501"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/acvclasificacion2"
+                    android:layout_width="244dp"
+                    android:layout_height="24dp"
+                    android:layout_marginBottom="116dp"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <ImageView
+                    android:id="@+id/avccertificado22"
+                    android:layout_width="78dp"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginBottom="48dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/sobresaliente" />
+
+                <TextView
+                    android:id="@+id/avccalcertificado22"
+                    android:layout_width="83dp"
+                    android:layout_height="54dp"
+                    android:layout_marginBottom="48dp"
+                    android:text="TextView"
+                    android:textColor="#000000"
+                    android:textSize="35dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/avccertificado22" />
+
+                <TextView
+                    android:id="@+id/avccalcertificado222"
+                    android:layout_width="69dp"
+                    android:layout_height="53dp"
+                    android:layout_marginBottom="48dp"
+                    android:text="TextView"
+                    android:textColor="#000000"
+                    android:textSize="35dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/certificado222" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="129dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginBottom="28dp"
+                    android:text="TOMATOMETERS"
+                    android:textColor="@color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="76dp"
+                    android:text="235 Reviews"
+                    android:textColor="#5882FA"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageView
+                android:layout_marginTop="25dp"
+                android:id="@+id/imageView15"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/seccion11" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/avcpeliculas2"
+                android:layout_width="match_parent"
+                android:layout_height="318dp" >
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="141dp"
+                android:layout_marginTop="20dp"
+                android:background="#585858">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="130dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="144dp"
+                    android:text="Terms and Policies"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/boton9" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="150dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="284dp"
+                    android:text="Do Not Sell My Info"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/boton9" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="24dp"
+                    android:text="Privacy Policy"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/boton9" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="313dp"
+                    android:layout_height="43dp"
+                    android:paddingTop="10dp"
+                    android:text="Copyrigth Fandango. All rigths reserved."
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <Button
+                    android:id="@+id/boton9"
+                    android:layout_width="184dp"
+                    android:layout_height="44dp"
+                    android:layout_marginBottom="52dp"
+                    android:text="JOIN NEWSLETTER"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="130dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="144dp"
+                    android:text="Terms and Policies"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/boton9" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="170dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="177dp"
+                    android:paddingTop="10dp"
+                    android:text="AdChoises"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
