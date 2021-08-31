@@ -2,6 +2,7 @@ package com.example.firebaseuno
 
 import android.app.Activity
 import android.content.Intent
+import android.os.Binder
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -30,6 +31,35 @@ class MainActivity : AppCompatActivity() {
         val botonLogout = findViewById<Button>(R.id.btn_logout)
         botonLogout.setOnClickListener{
             solicitarSalirDelAplicativo()
+        }
+
+        val botonProducto = findViewById<Button>(R.id.btn_producto)
+        botonProducto.setOnClickListener{
+            val intent = Intent(
+                this,
+                CProducto::class.java
+            )
+            startActivity(intent)
+        }
+
+
+        val botonRestaurante = findViewById<Button>(R.id.btn_restaurante)
+        botonRestaurante.setOnClickListener{
+            val intent = Intent(
+                this,
+                DRestaurante::class.java
+            )
+            startActivity(intent)
+        }
+
+
+        val botonOrden = findViewById<Button>(R.id.btn_orden)
+        botonOrden.setOnClickListener{
+            val intent = Intent(
+                this,
+                EOrdenes::class.java
+            )
+            startActivity(intent)
         }
     }
 
@@ -139,14 +169,23 @@ class MainActivity : AppCompatActivity() {
             val textViewBienvenida = findViewById<TextView>(R.id.tv_bienvenida)
             val botonLogin = findViewById<Button>(R.id.btn_login)
             val botonLogout = findViewById<Button>(R.id.btn_logout)
+            val botonProducto = findViewById<Button>(R.id.btn_producto)
+            val botonRestaurante = findViewById<Button>(R.id.btn_restaurante)
+            val botonOrden = findViewById<Button>(R.id.btn_orden)
             if(BAuthUsuario.usuario != null){
                 textViewBienvenida.text = "Bienvenido ${BAuthUsuario.usuario?.email}"
                 botonLogin.visibility = View.INVISIBLE
                 botonLogout.visibility = View.VISIBLE
+                botonProducto.visibility = View.VISIBLE
+                botonRestaurante.visibility = View.VISIBLE
+                botonOrden.visibility = View.VISIBLE
             }else{
                 textViewBienvenida.text = "Ingresa al aplicativo"
                 botonLogin.visibility = View.VISIBLE
                 botonLogout.visibility = View.INVISIBLE
+                botonProducto.visibility = View.INVISIBLE
+                botonRestaurante.visibility = View.INVISIBLE
+                botonOrden.visibility = View.INVISIBLE
             }
         }
 
