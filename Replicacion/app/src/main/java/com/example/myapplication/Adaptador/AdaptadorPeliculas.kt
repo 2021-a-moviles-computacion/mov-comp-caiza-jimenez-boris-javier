@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.core.app.ActivityCompat.startActivityForResult
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myapplication.Actividades.VisorCalificacion
 import com.example.myapplication.Datos.Pelicula
@@ -74,6 +75,9 @@ class AdaptadorPeliculas(private var lista: ArrayList<Pelicula>, private var con
 
         
     }
+
+
+
 
 
 
